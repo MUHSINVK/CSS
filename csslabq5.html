@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{
+  background-color: dimgray;
+  font-family:sans-serif;
+  padding:10px;
+  margin:50px 50px ;
+  }
+.header {
+  background-color: white;
+  padding: 3px;
+  border-radius:8px 8px 0px 0px;
+  width: 77%;
+
+  }
+* {
+  box-sizing: border-box;
+  }
+.container1{
+  background-color: rgb(8,32,50);
+  color: white;
+  float: left;
+  
+  padding: 50px;
+  height: 550px;
+  width: 52%;
+  border-radius:0px 0px 0px 8px;
+  }
+.container2{  
+  background-color: seagreen;
+  color: white;
+  float: right;
+  
+  padding:100px 30px;
+  height: 550px;
+  width: 25%;
+  margin-right: 23%;
+  border-radius:0px 0px 8px 0px;
+
+  }
+h3{
+  color:grey;
+  text-align: left;
+  }
+
+p {
+  font-size: 14px;
+  text-align: left;
+  color: gray;
+}
+
+h4,h1{
+  font-family: arial narrow; 
+  font-weight: normal;
+
+  }
+
+h2 {
+  font-weight: normal;
+}
+
+
+input[type=email] {
+ font-size: 18px;
+ padding: 15px;
+ border: none;
+ border : 0px solid #000000;
+ border-bottom-width : 1px;
+ background-color : transparent;
+ outline: none;
+ 
+}
+
+
+input[type=password] {
+  outline: none;
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  border : 0px solid #000000;
+  border-bottom-width : 1px;
+  background-color : transparent;
+
+}
+
+::placeholder{
+  color: lightgrey;
+  font-size: 14px;
+
+}
+
+button[id=login] {
+  background-color:seagreen;
+  color: white;
+  width:60px;
+  height:30px;
+  broder border-radius: 5px;
+  }
+button[id=login]:hover {
+  background-color: white;
+  color:seagreen;
+  }
+
+  .footer1 a {
+  font-size:13px;
+  margin-left: 7%;
+  color:lightgrey;
+  text-decoration: none;
+  }
+  .footer1 a:hover {
+   color: white;
+   text-align: left;
+  }
+
+button{
+  background-color: seagreen;
+  color:white;
+  width:140px;
+  height:30px;
+  border-radius: 5px;
+  border: none;
+  }
+button:hover {
+  background-color: white;
+  color:seagreen;
+  }
+div{
+  overflow:hidden;
+}
+ .footer a {
+  font-size:10px;
+  color:grey;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  }
+ .footer a:hover {
+   color: white;
+  }
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+      <img src="https://www.oreilly.com/library/view/mac-os-x/0321330226/0321330226_ch03lev2sec11_image02.jpeg" alt="reddot">
+      <img src="https://www.oreilly.com/library/view/mac-os-x/0321330226/0321330226_ch03lev2sec11_image03.jpeg" alt="yellowdot">
+      <img src="https://www.oreilly.com/library/view/mac-os-x/0321330226/0321330226_ch03lev2sec11_image04.jpeg" alt="greendot">
+    </header>
+    <div class="container1">
+      <div><img src="https://cosy.erc.edu/assets/my-erc/img/logo-white.png" alt="logo" width="100px" height="40px"></div><br><br>
+      <h1>Welcome</h1>
+      <h3>Register for an ERC account here</h3>
+      <p>Register for a free ERC account here get access to the webshop, academy and My ERC membership portal. Temper incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrad exercitation ullamco laboris nisi ut alliquiap ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate veli esse cillium dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident,sunt in culpu qui.</p>
+      <button type="submit" value="Register Here">REGISTER HERE</button><br><br><br><br><br>
+      <div class="footer">
+        <a href="#">CHOOSE LANGUAGE<i class="fa fa-caret-down"></i></a>
+        <a href="#">HELP CENTER</a>
+        <a href="#">ERC WEBSITE</a>
+        <a href="#">ERC WEBSHOP</a>
+      </div>
+    </div>
+    <div class="container2">
+      <br><br><br><br>
+      <form action="" method="POST">
+      <h2>Or login to you account</h2>
+            <div class="input">
+          <input  type="email" name="youremail" placeholder="Your email"  >            
+        </div>
+        <div class="input">
+          <input  type="password" name="password" placeholder="Password">           
+        </div><br><br>
+        <div class="footer1">
+          <button id="login" type="submit" value="LOGIN">LOGIN</button>   
+          <a href="#">Forgot Password?</a>
+        </div>
+      </form>
+    </div>  
+  </div>
+
+</body>
+</html>
